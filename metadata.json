@@ -1,0 +1,6 @@
+{
+  "name": "Ahava Digital Academy",
+  "description": "Learn high-income digital skills and start earning online. Six comprehensive digital courses in one complete program by Coach Clement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

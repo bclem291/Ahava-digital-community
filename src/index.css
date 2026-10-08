@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy: #0A1F44;
+    --navy-light: #132D5C;
+    --navy-dark: #06142E;
+    --sky: #38B6FF;
+    --sky-hover: #1FA2EF;
+    --sky-soft: #E8F7FF;
+  }
+
+  html {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1E293B;
+    background-color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--navy);
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Custom styling utilities */
+.text-navy {
+  color: #0A1F44;
+}
+
+.bg-navy {
+  background-color: #0A1F44;
+}
+
+.bg-navy-light {
+  background-color: #132D5C;
+}
+
+.border-navy {
+  border-color: #0A1F44;
+}
+
+.text-sky-brand {
+  color: #38B6FF;
+}
+
+.bg-sky-brand {
+  background-color: #38B6FF;
+}
+
+.border-sky-brand {
+  border-color: #38B6FF;
+}
+
+/* Custom soft shadows */
+.card-shadow {
+  box-shadow: 0 10px 30px -5px rgba(10, 31, 68, 0.08), 0 4px 6px -2px rgba(10, 31, 68, 0.04);
+}
+
+.card-shadow-hover {
+  transition: all 0.25s ease-in-out;
+}
+
+.card-shadow-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 35px -5px rgba(10, 31, 68, 0.12), 0 10px 10px -5px rgba(56, 182, 255, 0.1);
+}
+
